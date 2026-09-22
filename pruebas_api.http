@@ -1,0 +1,21 @@
+### Prueba 1: Inferencia de IA (Cliente con Riesgo Alto)
+POST https://tu-api.onrender.com/api/v1/predict/
+Content-Type: application/json
+
+{
+  "frecuencia_compra": 2,
+  "monto_promedio": 15000.0,
+  "dias_ultima_compra": 45
+}
+
+###
+
+### Prueba 2: Inferencia de IA (Cliente Activo / Bajo Riesgo)
+POST https://tu-api.onrender.com/api/v1/predict/
+Content-Type: application/json
+
+{
+  "frecuencia_compra": 20,
+  "monto_promedio": 200000.0,
+  "dias_ultima_compra": 1
+}
